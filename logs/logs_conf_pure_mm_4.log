@@ -1,0 +1,10 @@
+2022-12-13 15:50:54,786 - 8631 - hummingbot.connector.exchange.digifinex.time_patcher - NETWORK - Error getting Digifinex server time.
+Traceback (most recent call last):
+  File "/root/hummingbot/hummingbot/connector/exchange/digifinex/time_patcher.py", line 96, in update_server_time_offset
+    server_time = await query_time_func()
+  File "/root/hummingbot/hummingbot/connector/exchange/digifinex/digifinex_auth.py", line 41, in query_time_func
+    resp_data: Dict[str, float] = await resp.json()
+  File "/root/miniconda3/envs/hummingbot/lib/python3.8/site-packages/aiohttp/client_reqrep.py", line 1097, in json
+    raise ContentTypeError(
+aiohttp.client_exceptions.ContentTypeError: 0, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8', url=URL('https://openapi.digifinex.com/v3/time')
+2022-12-13 15:50:54,791 - 8631 - hummingbot.connector.exchange.digifinex.time_patcher - WARNING - Could not refresh Digifinex server time. Check network connection.

@@ -1,0 +1,3 @@
+exchange_trade_id,config_file_path,strategy,market,symbol,base_asset,quote_asset,timestamp,order_id,trade_type,order_type,price,amount,leverage,trade_fee,position,age
+1382135012792321,conf_pure_mm_1.yml,pure_market_making,kucoin,EDG-USDT,EDG,USDT,1667328830000,SEGUT5ec6d3ea2d255958a1d10aec3df8e47af8c,SELL,LIMIT_MAKER,0.000733,285714,1,"{'fee_type': 'AddedToCost', 'percent': '0.002', 'percent_token': None, 'flat_fees': []}",NIL,n/a
+1382149262546945,conf_pure_mm_1.yml,pure_market_making,kucoin,EDG-USDT,EDG,USDT,1667328891000,SEGUT5ec6d42459ab0958a1d10aec3df8e47af8c,SELL,LIMIT_MAKER,0.000733,285714,1,"{'fee_type': 'AddedToCost', 'percent': '0.002', 'percent_token': None, 'flat_fees': []}",NIL,n/a
